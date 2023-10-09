@@ -1,0 +1,6 @@
+﻿Dear {0},
+
+Thank you for making payment. Please find the latest invoice attached.
+
+Thanks,
+Equity Life

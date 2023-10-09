@@ -1,0 +1,11 @@
+﻿Dear {0}, 
+
+Thank you for showing interest in our {1} product.
+Kindly find attached the quotation  as per your details. 
+Please click here {2} to proceed to buy the {3} product.For all enquiries or clarifications,
+please feel free to contact us through our dedicated support email address {4} or mobile contact {5}.
+
+Yours faithfully
+{6}
+Customer Service Manager
+Equity Life Assurance (Kenya) Limited

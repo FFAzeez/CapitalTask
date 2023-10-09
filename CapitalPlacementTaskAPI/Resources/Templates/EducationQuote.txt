@@ -1,0 +1,19 @@
+﻿
+<html>
+<body>
+Dear {0}, 
+
+Thank you for showing interest in our Education product.
+Kindly find attached the quotation  as per your details. 
+Please click here <a href="{2}">{2}</a> to proceed to buy the education product.For all enquiries or clarifications,
+please feel free to contact us through our dedicated support email address {5} or mobile contact {4}.
+<p>
+The link to buy the education product expires within a period of 7 days.
+</p>
+
+Yours faithfully
+{6}
+Customer Service Manager
+Equity Life Assurance (Kenya) Limited
+</body>
+</html>

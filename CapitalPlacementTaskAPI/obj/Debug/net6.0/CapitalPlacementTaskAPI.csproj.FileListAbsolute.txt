@@ -1,0 +1,7 @@
+C:\Users\folarami.fatai\OneDrive - NLPC PFA\Desktop\CapitalPlacementTask\CapitalPlacementTaskAPI\obj\Debug\net6.0\CapitalPlacementTaskAPI.csproj.AssemblyReference.cache
+C:\Users\folarami.fatai\OneDrive - NLPC PFA\Desktop\CapitalPlacementTask\CapitalPlacementTaskAPI\obj\Debug\net6.0\CapitalPlacementTaskAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\folarami.fatai\OneDrive - NLPC PFA\Desktop\CapitalPlacementTask\CapitalPlacementTaskAPI\obj\Debug\net6.0\CapitalPlacementTaskAPI.AssemblyInfoInputs.cache
+C:\Users\folarami.fatai\OneDrive - NLPC PFA\Desktop\CapitalPlacementTask\CapitalPlacementTaskAPI\obj\Debug\net6.0\CapitalPlacementTaskAPI.AssemblyInfo.cs
+C:\Users\folarami.fatai\OneDrive - NLPC PFA\Desktop\CapitalPlacementTask\CapitalPlacementTaskAPI\obj\Debug\net6.0\CapitalPlacementTaskAPI.csproj.CoreCompileInputs.cache
+C:\Users\folarami.fatai\OneDrive - NLPC PFA\Desktop\CapitalPlacementTask\CapitalPlacementTaskAPI\obj\Debug\net6.0\CapitalPlacementTaskAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\folarami.fatai\OneDrive - NLPC PFA\Desktop\CapitalPlacementTask\CapitalPlacementTaskAPI\obj\Debug\net6.0\CapitalPlacementTaskAPI.MvcApplicationPartsAssemblyInfo.cache

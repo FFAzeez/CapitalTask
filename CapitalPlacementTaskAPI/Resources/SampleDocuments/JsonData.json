@@ -1,0 +1,307 @@
+﻿[
+  {
+    "Age": 20,
+    "Term1Year": 8.157564102564084,
+    "AgeNextBirthday": 20
+  },
+  {
+    "Age": 21,
+    "Term1Year": 8.347179487179485,
+    "AgeNextBirthday": 21
+  },
+  {
+    "Age": 22,
+    "Term1Year": 8.517179487179483,
+    "AgeNextBirthday": 22
+  },
+  {
+    "Age": 23,
+    "Term1Year": 8.641410256410271,
+    "AgeNextBirthday": 23
+  },
+  {
+    "Age": 24,
+    "Term1Year": 8.739487179487138,
+    "AgeNextBirthday": 24
+  },
+  {
+    "Age": 25,
+    "Term1Year": 8.791794871794874,
+    "AgeNextBirthday": 25
+  },
+  {
+    "Age": 26,
+    "Term1Year": 8.795282051282054,
+    "AgeNextBirthday": 26
+  },
+  {
+    "Age": 27,
+    "Term1Year": 8.804871794871774,
+    "AgeNextBirthday": 27
+  },
+  {
+    "Age": 28,
+    "Term1Year": 8.804871794871774,
+    "AgeNextBirthday": 28
+  },
+  {
+    "Age": 29,
+    "Term1Year": 8.804871794871774,
+    "AgeNextBirthday": 29
+  },
+  {
+    "Age": 30,
+    "Term1Year": 8.804871794871774,
+    "AgeNextBirthday": 30
+  },
+  {
+    "Age": 31,
+    "Term1Year": 8.804871794871774,
+    "AgeNextBirthday": 31
+  },
+  {
+    "Age": 32,
+    "Term1Year": 8.804871794871774,
+    "AgeNextBirthday": 32
+  },
+  {
+    "Age": 33,
+    "Term1Year": 8.804871794871774,
+    "AgeNextBirthday": 33
+  },
+  {
+    "Age": 34,
+    "Term1Year": 8.804871794871774,
+    "AgeNextBirthday": 34
+  },
+  {
+    "Age": 35,
+    "Term1Year": 8.804871794871774,
+    "AgeNextBirthday": 35
+  },
+  {
+    "Age": 36,
+    "Term1Year": 8.804871794871774,
+    "AgeNextBirthday": 36
+  },
+  {
+    "Age": 37,
+    "Term1Year": 8.804871794871774,
+    "AgeNextBirthday": 37
+  },
+  {
+    "Age": 38,
+    "Term1Year": 8.804871794871774,
+    "AgeNextBirthday": 38
+  },
+  {
+    "Age": 39,
+    "Term1Year": 8.804871794871774,
+    "AgeNextBirthday": 39
+  },
+  {
+    "Age": 40,
+    "Term1Year": 8.844102564102592,
+    "AgeNextBirthday": 40
+  },
+  {
+    "Age": 41,
+    "Term1Year": 8.987948717948719,
+    "AgeNextBirthday": 41
+  },
+  {
+    "Age": 42,
+    "Term1Year": 9.131794871794849,
+    "AgeNextBirthday": 42
+  },
+  {
+    "Age": 43,
+    "Term1Year": 9.27564102564099,
+    "AgeNextBirthday": 43
+  },
+  {
+    "Age": 44,
+    "Term1Year": 9.419487179487259,
+    "AgeNextBirthday": 44
+  },
+  {
+    "Age": 45,
+    "Term1Year": 9.64179487179484,
+    "AgeNextBirthday": 45
+  },
+  {
+    "Age": 46,
+    "Term1Year": 9.857564102564087,
+    "AgeNextBirthday": 46
+  },
+  {
+    "Age": 47,
+    "Term1Year": 10.079871794871764,
+    "AgeNextBirthday": 47
+  },
+  {
+    "Age": 48,
+    "Term1Year": 10.315256410256385,
+    "AgeNextBirthday": 48
+  },
+  {
+    "Age": 49,
+    "Term1Year": 10.570256410256412,
+    "AgeNextBirthday": 49
+  },
+  {
+    "Age": 50,
+    "Term1Year": 10.851410256410231,
+    "AgeNextBirthday": 50
+  },
+  {
+    "Age": 51,
+    "Term1Year": 11.14564102564105,
+    "AgeNextBirthday": 51
+  },
+  {
+    "Age": 52,
+    "Term1Year": 11.459487179487114,
+    "AgeNextBirthday": 52
+  },
+  {
+    "Age": 53,
+    "Term1Year": 11.812564102564176,
+    "AgeNextBirthday": 53
+  },
+  {
+    "Age": 54,
+    "Term1Year": 12.191794871794883,
+    "AgeNextBirthday": 54
+  },
+  {
+    "Age": 55,
+    "Term1Year": 12.610256410256415,
+    "AgeNextBirthday": 55
+  },
+  {
+    "Age": 56,
+    "Term1Year": 13.27064102564104,
+    "AgeNextBirthday": 56
+  },
+  {
+    "Age": 57,
+    "Term1Year": 14.06179487179492,
+    "AgeNextBirthday": 57
+  },
+  {
+    "Age": 58,
+    "Term1Year": 14.937948717948652,
+    "AgeNextBirthday": 58
+  },
+  {
+    "Age": 59,
+    "Term1Year": 15.91217948717954,
+    "AgeNextBirthday": 59
+  },
+  {
+    "Age": 60,
+    "Term1Year": 17.010641025641018,
+    "AgeNextBirthday": 60
+  },
+  {
+    "Age": 61,
+    "Term1Year": 18.226794871794823,
+    "AgeNextBirthday": 61
+  },
+  {
+    "Age": 62,
+    "Term1Year": 19.58679487179485,
+    "AgeNextBirthday": 62
+  },
+  {
+    "Age": 63,
+    "Term1Year": 21.090641025641062,
+    "AgeNextBirthday": 63
+  },
+  {
+    "Age": 64,
+    "Term1Year": 22.771025641025716,
+    "AgeNextBirthday": 64
+  },
+  {
+    "Age": 65,
+    "Term1Year": 24.654102564102494,
+    "AgeNextBirthday": 65
+  },
+  {
+    "Age": 66,
+    "Term1Year": 26.739871794871704,
+    "AgeNextBirthday": 66
+  },
+  {
+    "Age": 67,
+    "Term1Year": 29.067564102564212,
+    "AgeNextBirthday": 67
+  },
+  {
+    "Age": 68,
+    "Term1Year": 31.65679487179476,
+    "AgeNextBirthday": 68
+  },
+  {
+    "Age": 69,
+    "Term1Year": 34.54679487179495,
+    "AgeNextBirthday": 69
+  },
+  {
+    "Age": 70,
+    "Term1Year": 37.763717948717996,
+    "AgeNextBirthday": 70
+  },
+  {
+    "Age": 71,
+    "Term1Year": 41.333717948717975,
+    "AgeNextBirthday": 71
+  },
+  {
+    "Age": 72,
+    "Term1Year": 45.315641025640915,
+    "AgeNextBirthday": 72
+  },
+  {
+    "Age": 73,
+    "Term1Year": 49.748717948718095,
+    "AgeNextBirthday": 73
+  },
+  {
+    "Age": 74,
+    "Term1Year": 54.6787179487179,
+    "AgeNextBirthday": 74
+  },
+  {
+    "Age": 75,
+    "Term1Year": 60.1514102564102,
+    "AgeNextBirthday": 75
+  },
+  {
+    "Age": 76,
+    "Term1Year": 66.24525641025646,
+    "AgeNextBirthday": 76
+  },
+  {
+    "Age": 77,
+    "Term1Year": 73.01256410256391,
+    "AgeNextBirthday": 77
+  },
+  {
+    "Age": 78,
+    "Term1Year": 80.51871794871795,
+    "AgeNextBirthday": 78
+  },
+  {
+    "Age": 79,
+    "Term1Year": 88.86179487179487,
+    "AgeNextBirthday": 79
+  },
+  {
+    "Age": 80,
+    "Term1Year": 98.10064102564111,
+    "AgeNextBirthday": 80
+  }
+]

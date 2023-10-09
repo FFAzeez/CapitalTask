@@ -1,0 +1,22 @@
+﻿Dear team,
+
+QUOTATION REQUEST 
+The following customer showed interest in the {0} product.
+ 
+Their details are as follows:
+Name: {1}
+Telephone number: {2}
+Status: Call Back
+Mode: Web 
+
+See attached Quotation details.
+
+
+Please contact the client to discuss this in more details.
+
+
+Yours faithfully
+
+{3}
+Customer Service Manager
+Equity Life Assurance (Kenya) Limited

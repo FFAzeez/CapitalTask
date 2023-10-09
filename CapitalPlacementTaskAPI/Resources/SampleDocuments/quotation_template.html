@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: none;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        font-size: 14px;
+      }
+
+      .base-table {
+        border-top: 2px solid black;
+        border-right: 2px solid black;
+        width: 80%;
+        border-collapse: collapse;
+      }
+
+      .base-table tr:not(tr:last-of-type) {
+        border-bottom: 2px solid black;
+      } 
+
+      .base-table td {
+        border-right: 2px solid black;
+        padding: 3px;
+        width: 55%;
+      }
+
+      .base-table td:last-of-type {
+        text-align: right;
+      }
+
+      .base-table-full {
+        border-collapse: collapse;
+        margin-bottom: 40px;
+      }
+
+      .base-table-full td {
+        border: 2px solid black;
+        font-size: 12px;
+        padding: 4px;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="max-width: 1000px; margin: 20px; border: 2px solid black">
+      <div style="padding: 20px">
+        <table style="width: 100%">
+          <tbody>
+            <tr>
+              <td>
+                <p style="font-weight: 900">
+                  EQUITY LIFE ASSURANCE (KENYA) LIMITED
+                </p>
+
+                <p style="margin-top: 30px; font-weight: 900">
+                  Education Savings Product Quotation
+                </p>
+              </td>
+              <td style="width: 100px">
+                <img
+                  style="width: 100px; height: auto"
+                  src="data:image/png;base64,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"
+                  alt=""
+                  srcset=""
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table style="margin-top: 30px">
+          <tbody>
+            <tr>
+              <td>
+                <p style="font-weight: 900; margin-right: 20px">Date:</p>
+              </td>
+              <td>
+                  <p>{Date}</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p style="font-weight: 900; margin: 30px 0 10px 0">Customer Details</p>
+
+        <table style="width: 100%; border: 2px solid black">
+          <tbody>
+            <tr>
+              <td style="padding: 5px; font-size: 14px">Name</td>
+              <td style="padding: 5px; font-size: 14px">{Name}</td>
+            </tr>
+            <tr>
+              <td style="padding: 5px; font-size: 14px">Country</td>
+              <td style="padding: 5px; font-size: 14px">{Country}</td>
+            </tr>
+            <tr>
+              <td style="padding: 5px; font-size: 14px">Tel</td>
+              <td style="padding: 5px; font-size: 14px">{Mobile}</td>
+            </tr>
+            <tr>
+              <td style="padding: 5px; font-size: 14px">Email</td>
+              <td style="padding: 5px; font-size: 14px">{Email}</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div style="margin: 20px 0; border: 2px solid black">
+          <p style="font-weight: 900; margin: 5px 5px 20px 5px">
+            Policy Details
+          </p>
+
+          <table class="base-table">
+            <tbody>
+              <tr>
+                <td>Target Type</td>
+                <td>{PremiumPackageName}</td>
+              </tr>
+              <tr>
+                <td>Term in Years</td>
+                <td>{NumberOfYears}</td>
+              </tr>
+              <tr>
+                <td>Premium Frequency</td>
+                <td>{PaymentFrequency}</td>
+              </tr>
+              <tr>
+                <td>Investment Premium</td>
+                <td>{InvestmentPremium}</td>
+              </tr>
+              <tr>
+                <td>Investment Return</td>
+                <td>{InvestmentReturnPerAnnum}%</td>
+              </tr>
+              <tr>
+                <td>Periodic Premium Payment</td>
+                <td>{PeriodicInvestmentReturn}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="margin: 20px 0; border: 2px solid black">
+          <p style="font-weight: 900; margin: 5px 5px 20px 5px">
+            Investment Details
+          </p>
+
+          <table class="base-table">
+            <tbody>
+              <tr>
+                <td>Total Investment Premiums</td>
+                <td>{TotalInvestmentPremium}</td>
+              </tr>
+              <tr>
+                <td>Total Risk Premiums</td>
+                <td>{TotalRiskPremium}</td>
+              </tr>
+              <tr>
+                <td>Total Premiums Paid</td>
+                <td>{TotalPremiumsPaid}</td>
+              </tr>
+              <tr>
+                <td>Fund value at Maturity</td>
+                <td>{FundValueAtMaturity}</td>
+              </tr>
+              <tr>
+                <td>Investment return earned</td>
+                <td>{InvestmentReturnedEarned}</td>
+              </tr>
+              <tr>
+                <td>Return on Investment Premiums</td>
+                <td>{ReturnOnvestmentPremiums}%</td>
+              </tr>
+              <tr>
+                <td>Return on Total Premiums</td>
+                <td>{ReturnOnTotalPremiums}%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p style="font-weight: 900; margin: 30px 0 10px 0">Fund Projection</p>
+
+        <table class="base-table-full">
+          <thead>
+            <tr>
+              <td>Year</td>
+              <td>Investment Premium</td>
+              <td>Risk Premium</td>
+              <td>Total Premium</td>
+              <td>Cumulative Premium</td>
+              <td>Investment Income</td>
+              <td>Closing Fund Value</td>
+            </tr>
+          </thead>
+          <tbody>
+              {QuoteEntries}
+              <!--<tr>
+      <td>1</td>
+      <td>600,000</td>
+      <td>43,000</td>
+      <td>643,293</td>
+      <td>643,293</td>
+      <td>22,515</td>
+      <td>622,515</td>
+    </tr>
+
+    <tr>
+      <td style="border-width: 2.8px">Total</td>
+      <td style="border-width: 2.8px">6,000,000</td>
+      <td style="border-width: 2.8px">43,000</td>
+      <td style="border-width: 2.8px">643,293</td>
+      <td style="border-width: 2.8px">643,293</td>
+      <td style="border-width: 2.8px">22,515</td>
+      <td style="border-width: 2.8px">622,515</td>
+    </tr>-->
+          </tbody>
+        </table>
+
+        <div style="font-size: 13px">
+          <p style="font-weight: 900">Notes:</p>
+
+          <p style="margin-bottom: 4px">
+            Quotation is valid for 90 days since the date of issue
+          </p>
+
+          <p style="margin-bottom: 4px">
+            Medical underwriting will be required for a Sum Assured (SA) above
+            KShs 2 million
+          </p>
+
+          <p style="margin-bottom: 4px">
+            <span style="font-weight: 900">Death Benefit: </span> In case of
+            death, the higher of SA and fund value is payable.
+          </p>
+
+          <p style="margin-bottom: 4px">
+            <span style="font-weight: 900">Withdrawal Benefit: </span> In case
+            of withdrawal, the fund value is payable, less any statutory charges
+            and administrative charges.
+          </p>
+
+          <p style="margin-top: 30px; font-weight: 900">Contacts</p>
+          <a
+            href="mailto:xxx@equityinsurance.co.ke"
+            style="display: block; margin: 3px 0; color: royalblue"
+            >Email:xxx@equityinsurance.co.ke</a
+          >
+
+          <p>Tel: 0765xxxxxx</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; color: #fff; background-color: #a32b29; padding: 7px 0; font-size: 13px;">
+        Equity Life Assurance (Kenya) Limited
+      </div>
+    </div>
+  </body>
+</html>

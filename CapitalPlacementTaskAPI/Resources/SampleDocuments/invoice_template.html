@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-size: 15px;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      .base-table,
+      .base-table thead,
+      .base-table td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      .base-table td {
+        padding: 10px;
+      }
+
+      .base-table td {
+        width: 100px;
+      }
+
+      .base-table thead {
+        background-color: #a32b29;
+        color: #fff;
+      }
+
+      .base-table thead td {
+        font-size: 14px;
+        font-weight: 900;
+      }
+
+      .base-table thead td:not(td:last-child) {
+        border-right: 1px solid #fff;
+      }
+
+      .base-details-table table p {
+        padding: 6px;
+        border: 1px solid #000;
+        margin: 5px 20px 5px 5px;
+        font-weight: 900;
+      }
+
+      .base-details-table table {
+        width: 100%;
+      }
+
+      .base-details-table:first-of-type table td:nth-child(2) {
+        width: 100%;
+      }
+
+      .base-details-table td:first-of-type {
+        white-space: nowrap;
+        min-width: 70px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="margin: 0 auto; max-width: 1000px; min-width: 500px">
+      <table style="width: 100%">
+        <tbody>
+          <tr>
+            <td
+              style="
+                background: #a32b29;
+                padding: 0 20px;
+                color: #fff;
+                font-size: 25px;
+                font-weight: 800;
+              "
+            >
+              DEBIT NOTE
+            </td>
+            <td style="width: 200px; padding: 10px;">
+              <img style="width: 100px; height: auto;"
+              src="data:image/png;base64,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"
+              alt="" srcset="" / >
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 40px 20px; width: 100%">
+              <div style="border: 1px solid black; max-width: 500px">
+                <p
+                  style="
+                    color: #a32b29;
+                    font-weight: 500;
+                    padding: 10px;
+                    border-bottom: 1px solid black;
+                    background-color: #80808031;
+                    font-weight: 900;
+                    font-size: 14px;
+                  "
+                >
+                  DEBIT NOTE
+                </p>
+                <p style="min-height: 100px; padding: 10px">
+                    {DebitNote}
+                </p>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="base-table" style="margin: 0 20px">
+        <thead>
+          <tr>
+            <td>Policy No</td>
+            <td>Class of Insurance</td>
+            <td>Transaction Type</td>
+            <td>Intermediary Reference No</td>
+            <td>Period</td>
+            <td>Document Date</td>
+            <td>Insurer</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td>{PolicyNumber}</td>
+              <td>{ClassOfInsurance}</td>
+              <td>{TransactionType}</td>
+              <td>{ReferenceNumber}</td>
+              <td>{Period}</td>
+            <td>{Date}</td>
+            <td>{Insurer}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div style="padding: 20px; margin: 30px 0; max-width: 500px">
+        <p style="color: #a32b29; font-size: 14px; font-weight: 900">
+          TRANSACTION DETAILS
+        </p>
+        <div
+          style="
+            border: 1px solid black;
+            padding: 10px;
+            margin-top: 10px;
+            min-height: 100px;
+          "
+        >
+          {TransactionDetails}
+        </div>
+      </div>
+
+      <table style="margin: 0 20px 0 auto">
+        <tbody>
+          <tr>
+            <td>
+              <div style="margin-right: 20px">
+                <p style="padding: 10px 0; font-weight: 900; font-size: 14px">
+                  Basic Premium
+                </p>
+                <p style="padding: 10px 0; font-weight: 900; font-size: 14px">
+                  Levies
+                </p>
+                <p style="padding: 10px 0; font-weight: 900; font-size: 14px">
+                  Total Premium
+                </p>
+              </div>
+            </td>
+            <td>
+              <div
+                style="
+                  border: 1px solid black;
+                  padding: 0 20px;
+                  min-width: 200px;
+                "
+              >
+                <p style="padding: 10px 0">{TotalPremimum}</p>
+                <p style="padding: 10px 0">0</p>
+                <p style="padding: 10px 0">{TotalPremimum}</p>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table style="margin: 20px">
+        <tbody>
+          <tr>
+            <td>
+              <p style="font-weight: 900; font-size: 14px; margin-right: 30px">
+                Posted By
+              </p>
+            </td>
+            <td>
+              <p
+                style="
+                  padding: 7px 10px;
+                  border: 1px solid black;
+                  min-width: 200px;
+                "
+              >
+                {PostedBy}
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div style="padding: 20px">
+        <p
+          style="
+            color: #a32b29;
+            margin-bottom: 8px;
+            font-weight: 900;
+            font-size: 14px;
+          "
+        >
+          PLEASE FORWARD YOUR REMITTANCE TO
+        </p>
+
+        <div class="base-details-table">
+          <table>
+            <tbody>
+              <td>Account Name</td>
+              <td>
+                  <p>Equity Bank (Kenya) Limited</p>
+              </td>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="base-details-table">
+          <table>
+            <tbody>
+              <td>
+                <table>
+                  <tbody>
+                    <td>Bank</td>
+                    <td style="width: 100%">
+                        <p>Equity Bank (Kenya) Limited</p>
+                    </td>
+                  </tbody>
+                </table>
+              </td>
+
+              <td>
+                <table>
+                  <tbody>
+                    <td>Branch</td>
+                    <td style="width: 100%">
+                        <p>Equity Centre, Nairobi</p>
+                    </td>
+                  </tbody>
+                </table>
+              </td>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="base-details-table">
+          <table>
+            <tbody>
+              <td>
+                <table>
+                  <tbody>
+                    <td>Account No</td>
+                    <td style="width: 100%">
+                        <p>0810281111344</p>
+                    </td>
+                  </tbody>
+                </table>
+              </td>
+
+              <td style="width: 50%">
+                <table>
+                  <tbody>
+                    <td>
+                      <table>
+                        <tbody>
+                          <td>Bank Code</td>
+                          <td style="width: 100%">
+                            <p>68</p>
+                          </td>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td>
+                      <table>
+                        <tbody>
+                          <td>Swift Code</td>
+                          <td style="width: 100%">
+                              <p>EQBLKENA</p>
+                          </td>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tbody>
+                </table>
+              </td>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <p style="padding: 100px 20px 70px 20px; font-size: 12px">
+        Please note that premium settlement is governed by legislation (section
+        156 of the Insurance Act,Cap 487) which is on cash & carry.
+      </p>
+
+      <p style="font-size: 10px; padding: 0 20px">
+        <span style="color: #a32b29"
+          >Equity Life Assurance (Kenya) Limited</span
+        >
+        Equity Centre, 9th Floor. Hospital Road | +254 763 063 000 |
+        enquiries@equityinsurance.co.ke |
+        <a
+          href="https://www.equitygroupholdings.com/ke/insure"
+          style="color: black"
+          >www.equitygroupholdings.com/ke/insure.</a
+        >
+      </p>
+
+      <div style="padding: 5px 20px 30px 20px">
+        <table style="width: 100%">
+          <tbody>
+            <tr>
+              <td
+                style="width: 50%; height: 5px; background-color: #a32b29"
+              ></td>
+              <td style="width: 50%; height: 5px; background-color: black"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
